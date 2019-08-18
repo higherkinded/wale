@@ -26,11 +26,17 @@ The design of Wale is driven by a simple set of key principles and rules:
 It's simple, as with any NPM package out there. Wale's namespace is at
 `@wale.ts`, and you can find the current package under `@wale.ts/vdom`.
 
-Just so you can copy-paste, for NPM:
-`npm i @wale.ts/vdom`
+Just so you can copy-paste,
 
-And for Yarn:
-`yarn add @wale.ts/vdom`
+[npm]
+```bash
+$ npm i @wale.ts/vdom
+```
+
+[yarn]
+```bash
+$ yarn add @wale.ts/vdom
+```
 
 ## "Why would I want to use it?"
 
@@ -40,3 +46,9 @@ middleware inbetween your state and your representation. You can block
 your rendering until, say, you have a resource necessary to render it
 correctly, and you'll still do great because the only part that's gets
 blocked is the `await`ing component and its children.
+
+## _See also_
+
+Be sure to check out 
+[Wale/Stunsail](https://github.com/higherkinded/wale-stunsail)
+for state management.

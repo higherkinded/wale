@@ -26,14 +26,14 @@ The design of Wale is driven by a simple set of key principles and rules:
 It's simple, as with any NPM package out there. Wale's namespace is at
 `@wale.ts`, and you can find the current package under `@wale.ts/vdom`.
 
-Just so you can copy-paste,
+Just so you can copy-paste, NPM:
 
-[npm]
 ```bash
 $ npm i @wale.ts/vdom
 ```
 
-[yarn]
+Alternatively, for Yarn:
+
 ```bash
 $ yarn add @wale.ts/vdom
 ```

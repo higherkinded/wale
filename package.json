@@ -1,0 +1,26 @@
+{
+  "name": "wale",
+  "version": "0.1.0",
+  "description": "Simple VDOM library in TypeScript",
+  "main": "index.ts",
+  "repository": "https://github.com/higherkinded/wale",
+  "author": "higherkinded",
+  "license": "GPL-3.0",
+  "private": false,
+  "scripts": {
+    "build": "npx webpack",
+    "watch": "npx webpack -w --watch-poll 100 --display verbose"
+  },
+  "dependencies": {
+    "fp-ts": "2"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "npx": "^10.2.0",
+    "source-map": "^0.7.3",
+    "typescript": "3.5",
+    "webpack": "^4.39.2",
+    "webpack-build-notifier": "^2.0.0-alpha.3",
+    "webpack-cli": "^3.3.6"
+  }
+}

@@ -1,0 +1,9 @@
+# Artifacts and related mess
+dist
+*.log
+*node_modules
+
+# Emacs
+*#*
+*~*
+flymd*

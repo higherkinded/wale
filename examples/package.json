@@ -1,0 +1,28 @@
+{
+  "name": "examples",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "npx webpack-cli serve"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/babel__core": "^7.1.2",
+    "@types/babel__template": "^7.0.2",
+    "@webpack-cli/serve": "^0.1.8",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-jsx": "^2.0.0",
+    "jsx-transform": "^2.4.0",
+    "npx": "^10.2.0",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-build-notifier": "^2.0.0-alpha.3",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "wale-vdom",
+  "name": "@wale.ts/vdom",
   "version": "0.1.0",
   "description": "Simple VDOM library in TypeScript",
   "main": "index.ts",
@@ -11,6 +11,7 @@
   "license": "GPL-3.0",
   "private": false,
   "scripts": {
+    "pub": "npm run clean && npm publish --access public",
     "build": "npx webpack",
     "watch": "npx webpack -w --watch-poll 100 --display verbose",
     "clean": "(find . -name '*~*' -or -name '#*#' | xargs rm 2>&- 1>&-) || exit 0"

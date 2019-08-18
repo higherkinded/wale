@@ -20,6 +20,17 @@ The design of Wale is driven by a simple set of key principles and rules:
   separate entities and shouldn't be unified.
 - **Target JSX**. Why would you want to use something else when JSX provides the
   best composition for components that ever existed?
+  
+## Install it!
+
+It's simple, as with any NPM package out there. Wale's namespace is at
+`@wale.ts`, and you can find the current package under `@wale.ts/vdom`.
+
+Just so you can copy-paste, for NPM:
+`npm i @wale.ts/vdom`
+
+And for Yarn:
+`yarn add @wale.ts/vdom`
 
 ## "Why would I want to use it?"
 

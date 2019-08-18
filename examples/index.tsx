@@ -4,7 +4,7 @@ import Wale, {
   Props,
   VirtualElement,
   Component
-} from '../lib';
+} from '..';
 
 const El2 = async (props: any, children: any[]) => {
   console.log(props);

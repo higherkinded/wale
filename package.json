@@ -1,15 +1,19 @@
 {
-  "name": "wale",
+  "name": "wale-vdom",
   "version": "0.1.0",
   "description": "Simple VDOM library in TypeScript",
   "main": "index.ts",
+  "files": [
+    "/lib"
+  ],
   "repository": "https://github.com/higherkinded/wale",
   "author": "higherkinded",
   "license": "GPL-3.0",
   "private": false,
   "scripts": {
     "build": "npx webpack",
-    "watch": "npx webpack -w --watch-poll 100 --display verbose"
+    "watch": "npx webpack -w --watch-poll 100 --display verbose",
+    "clean": "(find . -name '*~*' -or -name '#*#' | xargs rm 2>- 1>-) || exit 0"
   },
   "dependencies": {
     "fp-ts": "2"

@@ -1,8 +1,10 @@
 /* @jsx Wale.e */
-import Wale, { WaleDOM } from '../lib';
-import { Props } from '../lib/types/dom';
-import { VirtualElement } from '../lib/types/dom/Element';
-import { Component } from '../lib/types/dom/Component';
+import Wale, {
+  WaleDOM,
+  Props,
+  VirtualElement,
+  Component
+} from '../lib';
 
 const El2 = async (props: any, children: any[]) => {
   console.log(props);

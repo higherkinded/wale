@@ -69,6 +69,4 @@ export const setAttributes = async (
 
   Object.entries(listeners).map(([k, v]) => setListener(el, k, v));
   Object.entries(attrs).map(([k, v]) => setAttr(el, k, v));
-
-  console.log(listeners, attrs);
 };
